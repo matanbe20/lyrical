@@ -1,0 +1,10 @@
+.main-link {
+  color: #fff
+}
+.main-link:hover {
+  color: #fff;
+}
+
+.main-link i {
+  font-size: 18px
+}
