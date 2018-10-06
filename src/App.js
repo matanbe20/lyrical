@@ -14,8 +14,8 @@ class App extends Component {
             <Navbar />
             <div className="container">
               <Switch>
-                <Route exact path="/" component={Index} />
-                <Route exact path="/lyrics/:id" component={Lyrics} />
+                <Route exact path={process.env.PUBLIC_URL + '/'} component={Index} />
+                <Route exact path={process.env.PUBLIC_URL + '/lyrics/:id'} component={Lyrics} />
               </Switch>
             </div>
           </React.Fragment>

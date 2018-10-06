@@ -52,7 +52,7 @@ class Lyrics extends Component {
           <pre>{this.state.lyrics}</pre>
 
           <div className="go-back">
-            <Link to="/">
+            <Link to={process.env.PUBLIC_URL + '/'}>
               <button className="btn btn-dark"> Back</button>
             </Link>
           </div>
