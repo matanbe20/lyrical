@@ -52,7 +52,7 @@ class Search extends Component {
         {value => {
           const { dispatch, preload } = value;
           return (
-            <div className="card card-body track">
+            <div className="card card-body track pb-0 mb-4">
               <h2 className="text-center">Search for your favorite songs lyrics !</h2>
               <div className="row justify-content-md-center p-4">
                 <div className="col-md-6 mb-3">
